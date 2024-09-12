@@ -1,1 +1,17 @@
+@article{Bouget2021,
+  title = {Meningioma Segmentation in T1-Weighted MRI Leveraging Global Context and Attention Mechanisms},
+  author = {David Bouget and André Pedersen and Sayied Abdol Mohieb Hosainey and Ole Solheim and Ingerid Reinertsen},
+  journal = {Frontiers in Radiology},
+  volume = {1},
+  pages = {711514},
+  year = {2021},
+  publisher = {Frontiers},
+  doi = {10.3389/fradi.2021.711514},
+  url = {https://doi.org/10.3389/fradi.2021.711514},
+  abstract = {Purpose: Meningiomas are the most common type of primary brain tumor, accounting for ~30% of all brain tumors. A substantial number of these tumors are never surgically removed but rather monitored over time. Automatic and precise meningioma segmentation is, therefore, beneficial to enable reliable growth estimation and patient-specific treatment planning. Methods: In this study, we propose the inclusion of attention mechanisms on top of a U-Net architecture used as backbone: (i) Attention-gated U-Net (AGUNet) and (ii) Dual Attention U-Net (DAUNet), using a three-dimensional (3D) magnetic resonance imaging (MRI) volume as input. Attention has the potential to leverage the global context and identify features' relationships across the entire volume. To limit spatial resolution degradation and loss of detail inherent to encoder-decoder architectures, we studied the impact of multi-scale input and deep supervision components. The proposed architectures are trainable end-to-end and each concept can be seamlessly disabled for ablation studies. Results: The validation studies were performed using a five-fold cross-validation over 600 T1-weighted MRI volumes from St. Olavs Hospital, Trondheim University Hospital, Norway. Models were evaluated based on segmentation, detection, and speed performances, and results are reported patient-wise after averaging across all folds. For the best-performing architecture, an average Dice score of 81.6% was reached for an F1-score of 95.6%. With an almost perfect precision of 98%, meningiomas smaller than 3 ml were occasionally missed hence reaching an overall recall of 93%. Conclusion: Leveraging global context from a 3D MRI volume provided the best performances, even if the native volume resolution could not be processed directly due to current GPU memory limitations. Overall, near-perfect detection was achieved for meningiomas larger than 3 ml, which is relevant for clinical use. In the future, the use of multi-scale designs and refinement networks should be further investigated. A larger number of cases with meningiomas below 3 ml might also be needed to improve the performance for the smallest tumors.},
+  issn = {2673-8740},
+  pmid = {37492175},
+  pmc = {PMC10365121},
+  note = {Copyright © 2021 Bouget, Pedersen, Hosainey, Solheim and Reinertsen},
+}
 
